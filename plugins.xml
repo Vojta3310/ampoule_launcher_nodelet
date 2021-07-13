@@ -1,0 +1,5 @@
+<library path="lib/libampoule_launcher">
+  <class name="ampoule_launcher/Launcher" type="ampoule_launcher::Launcher" base_class_type="nodelet::Nodelet">
+    <description>Ampoule launcher</description>
+  </class>
+</library>
