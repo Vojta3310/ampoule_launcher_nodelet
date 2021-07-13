@@ -1,14 +1,14 @@
 // Globals
-#define launch 13
+#define launch 2
 #define beep 3
 
 bool armed = false;
 
 void setup()
 {
+  digitalWrite(launch, LOW);
   pinMode(launch, OUTPUT);
   pinMode(beep, OUTPUT);
-  digitalWrite(launch, LOW);
   Serial.begin(115200); // Initialize serial connection to display distance readings
 }
 
